@@ -65,8 +65,7 @@
               "vendorChunk": true,
               "extractLicenses": false,
               "sourceMap": true,
-              "namedChunks": true,
-              "hmr": "true"
+              "namedChunks": true
             }
           },
           "defaultConfiguration": "production"

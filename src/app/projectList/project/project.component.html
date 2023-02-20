@@ -7,8 +7,8 @@
     <h2 class="text-5xl text-center capitalize my-2 font-josefin text-emerald-800 stroke w-full grow">
       {{ this.project.name }}
     </h2>
-    <div class="basis-full text-justify mx-10">
-      <p *ngFor="let paragraph of this.project.description" class="">{{ paragraph }}</p>
+    <div class="basis-full text-center mx-10">
+      <p *ngFor="let paragraph of this.project.description" class="my-2">{{ paragraph }}</p>
     </div>
     <app-buttons-bar class="self-end w-full" [buttons]="this.project.interactions"></app-buttons-bar>
   </div>

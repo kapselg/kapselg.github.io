@@ -17,7 +17,7 @@ import { InteractionButton } from '../shared/types';
           delay: 0
         }
       }),
-      
+
     ])
   ]
 })
@@ -34,7 +34,7 @@ export class AboutComponent implements AfterViewInit {
     {
       name: 'E-Mail me',
       icon: 'ph-envelope',
-      url: 'https://github.com'
+      url: 'mailto:wojciechduda03@gmail.com'
     },
     {
       name: 'GitHub',
@@ -42,8 +42,8 @@ export class AboutComponent implements AfterViewInit {
       url: 'https://github.com'
     },
     {
-      name: 'LinkedIn',
-      icon: 'ph-linkedin-logo',
+      name: 'Upwork',
+      icon: 'upwork.png',
       url: 'https://github.com'
     }
   ]
