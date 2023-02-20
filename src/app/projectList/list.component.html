@@ -1,0 +1,10 @@
+<div class="mx-auto md:w-4/5 md:p-10 my-10 flex justify-center flex-col">
+  <h2 class="heading text-8xl text-center text-emerald-500 pb-16 font-josefin font-black mx-20">{{ this.heading }}</h2>
+
+  <div class="grid grid-cols-8 grid-flow-row gap-10 mx-3">
+    <div class="lg:col-span-4 col-span-8 lg:last:odd:col-start-3" *ngFor="let project of this.projects">
+      <app-project [project]="project"></app-project>
+    </div>
+  </div>
+
+</div>
