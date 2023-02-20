@@ -1,0 +1,60 @@
+[
+  {
+    "name": "PolyForm",
+    "description": [
+      "A Google Forms alike tool for creating forms and reviewing results. Designed with simplicity in mind.",
+      "Besides a sleek-looking front end, I also created an extensive API server featuring data safety and limitation checks."],
+    "images": [
+      {
+        "alt": "some image",
+        "src": "https://picsum.photos/200/300"
+      }
+    ],
+    "interactions": [
+      {
+        "name": "Angular",
+        "icon": "angular.png",
+        "url": "https://angular.io/"
+      },
+      {
+        "name": "Beer CSS",
+        "icon": "beercss.png",
+        "url": "https://beercss.com/"
+      },
+      {
+        "name": "Nest JS",
+        "icon": "nestjs.png",
+        "url": "https://nestjs.com/"
+      },
+      {
+        "name": "Ngx Charts",
+        "icon": "ngxcharts.png",
+        "url": "https://swimlane.gitbook.io/ngx-charts/"
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Webflow Library",
+    "description": ["A simple gallery for user-created  Webflow components. Features extensive filtering options, easy access management and a stylized design."],
+    "images": [
+      {
+        "alt": "some image",
+        "src": "https://picsum.photos/200/300"
+      }
+    ],
+    "interactions": [
+      {
+        "name": "Angular",
+        "icon": "angular.png",
+        "url": "https://angular.io/"
+      },
+      {
+        "name": "Firebase",
+        "icon": "firebase.png",
+        "url": "https://firebase.google.com/"
+      }
+    ],
+    "enabled": true
+  }
+]
