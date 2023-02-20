@@ -3,7 +3,8 @@
     "name": "PolyForm",
     "description": [
       "A Google Forms alike tool for creating forms and reviewing results. Designed with simplicity in mind.",
-      "Besides a sleek-looking front end, I also created an extensive API server featuring data safety and limitation checks."],
+      "Besides a sleek-looking front end, I also created an extensive API server featuring data safety and limitation checks."
+    ],
     "images": [
       {
         "alt": "some image",
@@ -36,7 +37,9 @@
   },
   {
     "name": "Webflow Library",
-    "description": ["A simple gallery for user-created  Webflow components. Features extensive filtering options, easy access management and a stylized design."],
+    "description": [
+      "A simple gallery for user-created  Webflow components. Features extensive filtering options, easy access management and a stylized design."
+    ],
     "images": [
       {
         "alt": "some image",
@@ -53,6 +56,36 @@
         "name": "Firebase",
         "icon": "firebase.png",
         "url": "https://firebase.google.com/"
+      }
+    ],
+    "enabled": true
+  },
+  {
+    "name": "Derry city guide",
+    "description": [
+      "Virtual guide for the City of Derry created as part of an Erasmus project in Northern Ireland. It gained a very positive reviewer and local community acclaim."
+    ],
+    "images": [
+      {
+        "alt": "some image",
+        "src": "https://picsum.photos/200/300"
+      }
+    ],
+    "interactions": [
+      {
+        "name": "Angular",
+        "icon": "angular.png",
+        "url": "https://angular.io/"
+      },
+      {
+        "name": "Wordpress",
+        "icon": "wp.png",
+        "url": "https://wordpress.org/"
+      },
+      {
+        "name": "Leaflet",
+        "icon": "ph-leaf",
+        "url": "https://leafletjs.com/"
       }
     ],
     "enabled": true
