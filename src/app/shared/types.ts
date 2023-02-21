@@ -17,6 +17,7 @@ export interface Repo{
 export interface ProjectInfo{
   name: string,
   description: string[],
+  url: string,
   images: Image[]
   interactions: InteractionButton[],
   enabled: boolean

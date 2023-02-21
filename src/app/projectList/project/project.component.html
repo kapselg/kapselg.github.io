@@ -1,19 +1,18 @@
-<article class="sm:pb-3 shadow-xl black mt-10 sm:mt-0 h-full">
-  <div class="flex-none h-32 sm:h-64 w-auto relative">
+<article class="sm:pb-3 shadow-xl black mt-10 sm:mt-0 h-full flex flex-col">
+  <a class="flex-none h-32 sm:h-64 w-auto relative" [href]="this.project.url">
     <div class="w-full h-full bg-black blur-sm hidden sm:block mx-auto">
       <img [src]="this.project.images[0].src" alt=""
       class="absolute inset-0 w-full h-full object-top object-cover opacity-70" />
     </div>
     <img [src]="this.project.images[0].src" alt=""
       class="absolute inset-0 w-full h-full object-top object-cover sm:object-contain" />
-  </div>
-  <div class="flex flex-wrap w-full pt-5">
-    <h2 class="text-5xl font-bold text-center capitalize my-2 font-josefin text-emerald-500 stroke w-full grow">
+  </a>
+  <div class="w-full pt-5 grow">
+    <h2 class="text-5xl font-bold text-center capitalize mt-4 font-josefin text-emerald-500 stroke w-full">
       {{ this.project.name }}</h2>
-    <div class="basis-full text-center mx-10">
-      <p *ngFor="let paragraph of this.project.description" class="my-2">{{ paragraph }}</p>
+    <div class="basis-full text-center mx-10 mt-4">
+      <p *ngFor="let paragraph of this.project.description" class="mt-1">{{ paragraph }}</p>
     </div>
-    <app-buttons-bar btnClass="bg-emerald-700" class="self-end w-full my-5 mx-5" [buttons]="this.project.interactions"></app-buttons-bar>
   </div>
-
+  <app-buttons-bar btnClass="bg-emerald-700" class="w-full my-5 px-5" [buttons]="this.project.interactions"></app-buttons-bar>
 </article>

@@ -18,7 +18,18 @@ import { InteractionButton } from '../shared/types';
         }
       }),
 
-    ])
+    ]),
+    trigger('underline', [
+      transition(':enter', [
+        style({width: 0}),
+        animate('{{ duration }}s {{ delay }}ms ease-in-out')
+      ], {
+        params: {
+          duration: 2,
+          delay: 0
+        }
+      })
+    ]),
   ]
 })
 export class AboutComponent implements AfterViewInit {

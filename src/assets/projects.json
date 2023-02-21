@@ -5,6 +5,7 @@
       "A Google Forms alike tool for creating forms and reviewing results. Designed with simplicity in mind.",
       "Besides a sleek-looking front end, I also created an extensive API server featuring data safety and limitation checks."
     ],
+    "url": "https://polyform.ct8.pl/",
     "images": [
       {
         "alt": "Screenshot of the PolyForm project's website",
@@ -40,6 +41,7 @@
     "description": [
       "A simple gallery for user-created  Webflow components. Features extensive filtering options, easy access management and a stylized design."
     ],
+    "url":"https://webflowrepo.ct8.pl/",
     "images": [
       {
         "alt": "Screenshot of the Webflow Library project's website",
@@ -65,6 +67,7 @@
     "description": [
       "Virtual guide for the City of Derry created as part of an Erasmus project in Northern Ireland. It gained a very positive reviewer and local community acclaim."
     ],
+    "url":"https://derry.ct8.pl/",
     "images": [
       {
         "alt": "Screenshot of the Derry Guide project's website",
