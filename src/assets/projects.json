@@ -7,8 +7,8 @@
     ],
     "images": [
       {
-        "alt": "some image",
-        "src": "https://picsum.photos/200/300"
+        "alt": "Screenshot of the PolyForm project's website",
+        "src": "assets/polyform-ss.png"
       }
     ],
     "interactions": [
@@ -42,8 +42,8 @@
     ],
     "images": [
       {
-        "alt": "some image",
-        "src": "https://picsum.photos/200/300"
+        "alt": "Screenshot of the Webflow Library project's website",
+        "src": "assets/webflowrepo-ss.png"
       }
     ],
     "interactions": [
@@ -67,8 +67,8 @@
     ],
     "images": [
       {
-        "alt": "some image",
-        "src": "https://picsum.photos/200/300"
+        "alt": "Screenshot of the Derry Guide project's website",
+        "src": "assets/derry-ss.png"
       }
     ],
     "interactions": [
