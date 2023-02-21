@@ -19,14 +19,14 @@ import { VisibleDirective } from './visible.directive';
     ProjectList,
     HrComponent,
     ProjectComponent,
-    ButtonsBarComponent,
     VisibleDirective
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    HttpClientModule
+    HttpClientModule,
+    ButtonsBarComponent
   ],
   providers: [],
   bootstrap: [AppComponent]

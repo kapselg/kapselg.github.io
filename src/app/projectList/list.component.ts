@@ -1,4 +1,4 @@
-import { animate, style, transition, trigger } from '@angular/animations';
+import { animate, keyframes, style, transition, trigger } from '@angular/animations';
 import { Component, Input, OnInit } from '@angular/core';
 import { Observable } from 'rxjs';
 import { ProjectsService } from '../projects.service';
@@ -19,7 +19,18 @@ import { ProjectInfo } from '../shared/types';
           delay: 0
         }
       })
-    ])
+    ]),
+    trigger('underline', [
+      transition(':enter', [
+        style({width: 0}),
+        animate('{{ duration }}s {{ delay }}ms ease-in-out')
+      ], {
+        params: {
+          duration: 2,
+          delay: 0
+        }
+      })
+    ]),
   ]
 })
 export class ProjectList implements OnInit {

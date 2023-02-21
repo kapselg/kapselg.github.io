@@ -1,7 +1,7 @@
-<div class="w-full flex justify-center gap-1 flex-wrap">
+<div class="w-full flex justify-center gap-1 flex-wrap -mb-3">
 
   <a *ngFor="let button of this.buttons" #btn class="group bg-emerald-500 hover:bg-emerald-400
-  p-2 rounded-full md:rouned-3xl flex align-middle shadow-custom" [href]="button.url" (click)="button.url.length < 1 ? this.preventLink($event) : null" [target]="button.url ? '_blank' : ''">
+  p-2 rounded-full md:rouned-3xl flex align-middle shadow-custom {{this.btnClass}} mb-3" [href]="button.url" (click)="button.url.length < 1 ? this.preventLink($event) : null" [target]="button.url ? '_blank' : ''">
 
     <div class="w-16 grid place-items-center">
       <img #img class="h-8 object-center object-contain" [src]="'assets/' + button.icon" (error)="img.hidden = !(i.hidden = false)"/>
