@@ -1,13 +1,17 @@
 <article class="sm:pb-3 shadow-xl black mt-10 sm:mt-0 h-full flex flex-col">
-  <a class="flex-none h-32 sm:h-64 w-auto relative" [href]="this.project.url">
-    <div class="w-full h-full bg-black blur-sm hidden sm:block mx-auto">
+  <a class="flex-none h-64 w-auto relative group " [href]="this.project.url" target="_blank">
+    <div class="w-full h-full group-hover:blur transition-all">
+      <div class="w-full h-full opacity-50 hidden sm:block mx-auto">
+        <img [src]="this.project.images[0].src" alt=""
+        class="absolute inset-0 w-full h-[120%] blur-sm object-center object-scale-down opacity-80" />
+      </div>
       <img [src]="this.project.images[0].src" alt=""
-      class="absolute inset-0 w-full h-full object-top object-cover opacity-70" />
+        class="absolute inset-0 w-full h-full object-top object-contain sm:mt-6" />
+
     </div>
-    <img [src]="this.project.images[0].src" alt=""
-      class="absolute inset-0 w-full h-full object-top object-cover sm:object-contain" />
+    <i class="opacity-0 group-hover:opacity-100 ph-eye absolute text-emerald-600 text-6xl top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 transition-all"></i>
   </a>
-  <div class="w-full pt-5 grow">
+  <div class="w-full pt-16 grow">
     <h2 class="text-5xl font-bold text-center capitalize mt-4 font-josefin text-emerald-500 stroke w-full">
       {{ this.project.name }}</h2>
     <div class="basis-full text-center mx-10 mt-4">
