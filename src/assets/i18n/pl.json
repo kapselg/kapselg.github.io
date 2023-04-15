@@ -1,0 +1,13 @@
+{
+  "about": {
+    "title": "Programista JavaScript z pełnym stosem",
+    "description": "Jestem programistą JavaScript z pasją do rozwiązywania problemów. Lubię angażować się w ciekawe projekty, które wymagają kreatywnego myślenia i badań. Jestem ambitną osobą, która dąży do osiągnięcia swoich celów.",
+    "email": "Napisz do mnie"
+  },
+  "descriptions": {
+    "PolyForm": ["Podobne narzędzie do Google Forms do tworzenia formularzy i przeglądania ich wyników.", "Zaprojektowany z myślą o prostocie. Oprócz eleganckiego front-endu, stworzyłem również rozbudowany serwer API zapewniający bezpieczeństwo danych i ich typów."],
+    "Webflow Library": ["Prosta galeria komponentów Webflow utworzonych przez użytkownika. Posiada rozbudowane opcje filtrowania, łatwe zarządzanie dostępem i stylizowany design."],
+    "Derry city guide": ["Wirtualny przewodnik po mieście Derry stworzony w ramach projektu Erasmus w Irlandii Północnej.", "Zyskał bardzo pozytywne uznanie recenzentów i lokalnej społeczności."],
+    "Github Timeline": ["Proste narzędzie do wizualizacji aktywności repozytoriów Github. Pozwala zobaczyć swoją aktywność w formacie osi czasu, zapewniając szybki przegląd wybranego commita."]
+  }
+}

@@ -54,8 +54,8 @@ export class AboutComponent implements AfterViewInit {
     },
     {
       name: 'Upwork',
-      icon: 'upwork.png',
-      url: 'https://github.com'
+      icon: 'upwork.svg',
+      url: 'https://www.upwork.com/freelancers/~016bbdbafee3f36314'
     }
   ]
 

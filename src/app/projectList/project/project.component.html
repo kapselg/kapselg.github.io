@@ -15,7 +15,7 @@
     <h2 class="text-5xl font-bold text-center capitalize mt-4 font-josefin text-emerald-500 stroke w-full">
       {{ this.project.name }}</h2>
     <div class="basis-full text-center mx-10 mt-4">
-      <p *ngFor="let paragraph of this.project.description" class="mt-1">{{ paragraph }}</p>
+      <p *ngFor="let paragraph of ('descriptions.'+this.project.name) | translate" class="mt-1">{{ paragraph }}</p>
     </div>
   </div>
   <app-buttons-bar btnClass="bg-emerald-700" class="w-full my-5 px-5" [buttons]="this.project.interactions"></app-buttons-bar>

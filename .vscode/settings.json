@@ -19,5 +19,8 @@
     "titleBar.inactiveForeground": "#15202b99"
   },
   "peacock.remoteColor": "#48fdb6",
-  "css.lint.unknownAtRules": "ignore"
+  "css.lint.unknownAtRules": "ignore",
+  "i18n-ally.localesPaths": [
+    "src/assets/i18n"
+  ]
 }
