@@ -1,8 +1,7 @@
 import { CommonModule } from '@angular/common';
-import { Component, Input, OnInit } from '@angular/core';
-import { InteractionButton } from '../types';
 import { HttpClient } from '@angular/common/http';
-import { catchError, map, of, switchMap, take, tap } from 'rxjs';
+import { Component, Input } from '@angular/core';
+import { InteractionButton } from '../types';
 
 @Component({
   selector: 'app-buttons-bar',

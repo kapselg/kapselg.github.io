@@ -1,6 +1,5 @@
-import { animate, keyframes, style, transition, trigger } from '@angular/animations';
+import { animate, style, transition, trigger } from '@angular/animations';
 import { Component, Input, OnInit } from '@angular/core';
-import { Observable } from 'rxjs';
 import { ProjectsService } from '../projects.service';
 import { ProjectInfo } from '../shared/types';
 

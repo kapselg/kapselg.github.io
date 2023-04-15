@@ -1,5 +1,5 @@
-import { animate, state, style, transition, trigger } from '@angular/animations';
-import { AfterViewInit, Component, OnInit } from '@angular/core';
+import { animate, style, transition, trigger } from '@angular/animations';
+import { AfterViewInit, Component } from '@angular/core';
 import { InteractionButton } from '../shared/types';
 
 @Component({
