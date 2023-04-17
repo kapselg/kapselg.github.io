@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, computed, signal } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 
 @Component({
@@ -7,6 +7,17 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./app.component.sass']
 })
 export class AppComponent {
-  constructor(private translateService: TranslateService){}
+  language = signal('');
+  nextLanguage = computed(() => this.language() === 'pl' ? 'en' : 'pl')
+
+  constructor(private translateService: TranslateService){
+    this.language.set(this.translateService.currentLang);
+  }
+
+
+  toggleLanguage(){
+    this.translateService.use(this.nextLanguage())
+    this.language
+  }
 
 }

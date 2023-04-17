@@ -1,4 +1,4 @@
-<div class="w-full flex justify-center gap-1 flex-wrap -mb-3">
+<div class="w-full flex justify-center gap-1 flex-wrap">
 
   <a *ngFor="let button of this.buttons" #btn class="group bg-emerald-500 hover:bg-emerald-400
   p-2 rounded-full md:rouned-3xl flex align-middle shadow-custom {{this.btnClass}} mb-3" [href]="button.url" (click)="button.url.length < 1 ? this.preventLink($event) : null" [target]="button.url ? '_blank' : ''">

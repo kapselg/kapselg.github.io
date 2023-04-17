@@ -50,7 +50,7 @@ export class AboutComponent implements AfterViewInit {
     {
       name: 'GitHub',
       icon: 'ph-github-logo',
-      url: 'https://github.com'
+      url: 'https://github.com/wojd0'
     },
     {
       name: 'Upwork',

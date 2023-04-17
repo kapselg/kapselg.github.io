@@ -12,7 +12,9 @@ import { HrComponent } from './hr/hr.component';
 import { ProjectList } from './projectList/list.component';
 import { ProjectComponent } from './projectList/project/project.component';
 import { ButtonsBarComponent } from './shared/buttons-bar/buttons-bar.component';
-import { VisibleDirective } from './visible.directive';
+import { CommonModule, NgOptimizedImage } from '@angular/common';
+import { HideNotLoadedDirective } from './shared/hideNotLoaded.directive';
+import { FlagSrcPipe } from './shared/flag-src.pipe';
 
 function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http,  './assets/i18n/', '.json');
@@ -25,14 +27,17 @@ function HttpLoaderFactory(http: HttpClient) {
     ProjectList,
     HrComponent,
     ProjectComponent,
-    VisibleDirective
+    FlagSrcPipe,
   ],
   imports: [
+    CommonModule,
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
     ButtonsBarComponent,
+    NgOptimizedImage,
+    HideNotLoadedDirective,
     TranslateModule.forRoot({
       defaultLanguage: 'en',
       loader: {
