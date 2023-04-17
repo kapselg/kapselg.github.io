@@ -1,0 +1,36 @@
+{
+  "polyform": {
+    "title": "Poliform",
+    "description": [
+      "Google formuje podobnie narzędzie do tworzenia formularzy i przeglądu wyników.",
+      "Zaprojektowany z myślą o prostocie. Oprócz eleganckiego frontu, stworzyłem również obszerny serwer API zawierający bezpieczeństwo danych i kontrole typów."
+    ]
+  },
+  "webflowrepo": {
+    "title": "Repozytorium WebFlow",
+    "description": [
+      "Prosta galeria dla komponentów przepływu sieciowych. Zawiera obszerne opcje filtrowania, łatwe zarządzanie dostępem i stylizowany projekt.",
+      "Skontaktuj się ze mną, aby uzyskać login do panelu administracyjnego."
+    ]
+  },
+  "derry": {
+    "title": "Derry Virtual Guide",
+    "description": [
+      "Wirtualny przewodnik dla miasta Derry stworzony w ramach projektu Erasmus w Irlandii Północnej.",
+      "Zyskało bardzo pozytywne uznanie ze strony recenzentów i społeczności lokalnej."
+    ]
+  },
+  "timeline": {
+    "title": "Oś czasu GitHub",
+    "description": [
+      "Proste narzędzie do wizualizacji aktywności repozytorium GitHub. Pozwala zobaczyć swoją działalność w formacie osi czasu, zapewniając szybki przegląd wybranego zatwierdzenia."
+    ]
+  },
+  "nocodelib": {
+    "title": "Biblioteka komponentów bez kodu",
+    "description": [
+      "Obecnie biorę udział w tworzeniu usługi dla wstępnie utworzonych komponentów dla WebFlow.",
+      "W projekcie jestem odpowiedzialny za podłączenie wtyczek z API i tworzenie panelu administracyjnego w kątowym zarządzaniu użytkownikiem i zasobami."
+    ]
+  }
+}
