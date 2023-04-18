@@ -1,33 +1,34 @@
 {
   "about": {
-    "title": "Programista JavaScript z pełnym stosem",
-    "description": "Jestem programistą JavaScript z pasją do rozwiązywania problemów. Lubię angażować się w ciekawe projekty, które wymagają kreatywnego myślenia i badań. Jestem ambitną osobą, która dąży do osiągnięcia swoich celów.",
-    "email": "Napisz do mnie"
+    "title": "JavaScript Developer",
+    "description": "Jestem programistą z pasją do rozwiązywania problemów. Lubię angażować się w ciekawe projekty, które wymagają kreatywnego myślenia. Jestem ambitną osobą, która dąży do osiągnięcia swoich celów.",
+    "email": "E-mail",
+    "projects": "Moje projekty"
   },
   "projects": {
     "polyform": {
       "title": "PolyForm",
       "description": [
-        "Podobne do Google Forms narzędzie do tworzenia formularzy i przeglądu wyników.",
-        "Zaprojektowany z myślą o prostocie. Oprócz eleganckiego frontu, stworzyłem również obszerny serwer API zawierający bezpieczeństwo danych i kontrolę ich typów."
+        "Podobne do Google Forms narzędzie do tworzenia formularzy i przeglądu wyników. Zaprojektowany z myślą o prostocie.",
+        "Oprócz eleganckiego frontu w Angularze, stworzyłem również obszerny serwer API w NestJS zapewniający bezpieczeństwo danych i kontrolę ich typów."
       ]
     },
     "webflowrepo": {
       "title": "Repozytorium WebFlow",
       "description": [
-        "Prototyp prostej galeria dla komponentów dla platformy WebFlow. Zawiera opcje filtrowania, łatwe zarządzanie elementami i stylizowany interfejs.",
-        "Skontaktuj się ze mną, aby uzyskać login do panelu administracyjnego."
+        "Prototyp prostej galerii dla komponentów dla platformy WebFlow. Zawiera opcje filtrowania, łatwe zarządzanie elementami i stylizowany interfejs. Wykorzystuje API Firebase oraz Angular",
+        "Proszę o kontakt w sprawie loginu do panelu administracyjnego."
       ]
     },
     "derry": {
       "title": "Wirtualny przewodnik po Derry",
       "description": [
-        "Wirtualny przewodnik dla miasta Derry stworzony w ramach projektu Erasmus w Irlandii Północnej.",
-        "Zyskało bardzo pozytywne uznanie ze strony recenzentów i społeczności lokalnej."
+        "Wirtualny przewodnik dla miasta Derry stworzony w ramach projektu Erasmus w Irlandii Północnej. Odpowiadałem za stworzenie interaktywnej mapy miejsc opisanych w przewodniku oraz obsługę API strony.",
+        "Zyskał uznanie ze strony recenzentów i społeczności lokalnej."
       ]
     },
     "timeline": {
-      "title": "Oś czasu GitHub",
+      "title": "GitHub Timeline",
       "description": [
         "Proste narzędzie do wizualizacji aktywności repozytorium GitHub. Pozwala zobaczyć działalność w formacie osi czasu oraz zapewnia przystępny przegląd wybranego commita."
       ]
@@ -40,5 +41,4 @@
       ]
     }
   }
-
 }

@@ -1,5 +1,6 @@
 <img (click)="this.toggleLanguage()"
   class="h-10 w-auto p-1 bg-emerald-300 rounded-xl absolute top-0 right-0 md:right-5 md:top-5 hover:scale-110 transition-all cursor-pointer"
-  [src]="'./assets/' + this.nextLanguage + '.svg'" NgOptimizedImage a-hideNotLoaded (click)="this.toggleLanguage()" />
+  [src]="this.flag()" a-hideNotLoaded/>
+  <button class="opacity-0 text-3xl hover:opacity-100 absolute top-0 left-0" (click)="this.secret()">🤫</button>
 <app-about></app-about>
-<app-list heading="My Projects" id="projects"></app-list>
+<app-list id="projects"></app-list>

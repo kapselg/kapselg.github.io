@@ -1,10 +1,9 @@
-<div class="mx-auto md:w-4/5 md:p-10 space-y-3 font-semibold mb-30 mt-16" (appear)="this.show = true">
-  <button class="opacity-0 text-3xl hover:opacity-100 absolute top-0 left-0" (click)="this.secret()">🤫</button>
+<div class="mx-auto md:w-4/5 md:p-10 space-y-3 font-semibold mb-30 mt-8" (appear)="this.show = true">
 
   <div class="text-center select-none">
       <h1 class="name transition" [@load]>Wojciech</h1>
       <h1 class="name transition" [@load]>Duda</h1>
-    <h2 class="text-xl md:text-3xl pt-8 text-gray-800 font-bahnschrift mx-auto w-fit break-words" [@load]="{value:'', params: {delay: 500 / visited}}">{{ 'about.title' | translate }}
+    <h2 class="text-xl md:text-2xl pt-8 text-gray-800 font-bahnschrift mx-auto w-fit break-words" [@load]="{value:'', params: {delay: 500 / visited}}">{{ 'about.title' | translate }}
       <div class="border-b-[1px] border-gray-500 mx-auto mt-2" [@underline]></div>
     </h2>
   </div>

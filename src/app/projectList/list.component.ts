@@ -33,8 +33,6 @@ import { ProjectInfo } from '../shared/types';
   ]
 })
 export class ProjectList implements OnInit {
-
-  @Input() heading: string = 'Test heading';
   projects?: ProjectInfo[];
 
   constructor(private projectsService: ProjectsService) { }

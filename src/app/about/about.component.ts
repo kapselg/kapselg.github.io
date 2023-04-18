@@ -63,9 +63,6 @@ export class AboutComponent implements AfterViewInit {
 
   }
 
-  secret(){
-    localStorage.removeItem('visited');
-    location.reload();
-  }
+
 
 }

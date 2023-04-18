@@ -11,7 +11,7 @@
     <i *ngIf="this.project.url" class="opacity-0 group-hover:opacity-100 ph-eye absolute-center text-emerald-400 text-6xl top-1/2 left-1/2 transition-all z-50 pointer-events-none"></i>
   </div>
   <div class="w-full sm:pt-16 sm:pb-5 grow">
-    <h2 class="text-5xl font-bold text-center capitalize mt-10 md:mt-4 font-josefin text-emerald-500 stroke w-full">
+    <h2 class="text-4xl font-bold text-center capitalize mt-10 md:mt-4 font-josefin text-emerald-500 stroke w-full">
       {{ ('projects.'+this.project.name+'.title') | translate }}</h2>
     <div class="basis-full text-center mx-10 mt-4">
       <p *ngFor="let paragraph of ('projects.'+this.project.name+'.description') | translate" class="mt-1">{{ paragraph }}</p>
