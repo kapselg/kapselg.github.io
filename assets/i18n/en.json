@@ -2,27 +2,28 @@
   "about": {
     "title": "Full-Stack JavaScript Developer",
     "description": "I'm a JavaScript Developer with a passion for solving challenges. I enjoy committing to interesting projects that require creative thinking and research. I'm an ambitious person who likes to make things happen.",
-    "email": "E-Mail me"
+    "email": "E-Mail me",
+    "projects": "My projects"
   },
   "projects": {
     "polyform": {
-      "title": "PolyForm",
+      "title": "PolyForms",
       "description": [
-        "A Google Forms alike tool for creating forms and reviewing results.",
-        "Designed with simplicity in mind. Besides a sleek-looking front end, I also created an extensive API server featuring data safety and type checks."
+        "A Google Forms alike tool for creating forms and reviewing results. Designed with simplicity in mind.",
+        "Besides a sleek-looking front end made in Angular, I also created an extensive API server in NestJS featuring data safety and type checking."
       ]
     },
     "webflowrepo": {
       "title": "Webflow Repository",
       "description": [
-        "A simple gallery for user-created  Webflow components. Features extensive filtering options, easy access management and a stylized design.",
+        "A simple gallery for user-created  Webflow components. Features extensive filtering options, easy access management and a stylized design. Created using Firebase API and Angular.",
         "Please contact me to obtain a login to the admin panel."
       ]
     },
     "derry": {
       "title": "Derry Virtual Guide",
       "description": [
-        "Virtual guide for the City of Derry created as part of an Erasmus project in Northern Ireland.",
+        "Virtual guide for the City of Derry created as part of an Erasmus project in Northern Ireland. I was involved in creating map of places described in the guide and managing site's API.",
         "It gained a very positive acclaim from reviewers and local community."
       ]
     },
