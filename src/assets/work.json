@@ -1,0 +1,29 @@
+[
+  {
+    "name": "nocodelib",
+    "enabled": true,
+    "images": [
+      {
+        "alt": "coming soon text",
+        "src": "assets/doorplaceholder.jpg"
+      }
+    ],
+    "interactions": [
+      {
+        "name": "Angular",
+        "icon": "angular.svg",
+        "url": "https://angular.io/"
+      },
+      {
+        "name": "RxJS",
+        "icon": "rxjs.svg",
+        "url": "https://rxjs.dev/"
+      },
+      {
+        "name": "ReactJS",
+        "icon": "react.svg",
+        "url": "https://react.dev/"
+      }
+    ]
+  }
+]

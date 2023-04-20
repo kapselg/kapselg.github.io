@@ -1,13 +1,14 @@
 {
   "about": {
-    "title": "Full-Stack JavaScript Developer",
+    "title": "JavaScript Developer",
     "description": "I'm a JavaScript Developer with a passion for solving challenges. I enjoy committing to interesting projects that require creative thinking and research. I'm an ambitious person who likes to make things happen.",
     "email": "E-Mail me",
-    "projects": "My projects"
+    "projects": "My projects",
+    "work": "Recent work"
   },
   "projects": {
     "polyform": {
-      "title": "PolyForm",
+      "title": "PolyForms",
       "description": [
         "A Google Forms alike tool for creating forms and reviewing results. Designed with simplicity in mind.",
         "Besides a sleek-looking front end made in Angular, I also created an extensive API server in NestJS featuring data safety and type checking."
@@ -17,6 +18,7 @@
       "title": "Webflow Repository",
       "description": [
         "A simple gallery for user-created  Webflow components. Features extensive filtering options, easy access management and a stylized design. Created using Firebase API and Angular.",
+        "\u00a0",
         "Please contact me to obtain a login to the admin panel."
       ]
     },

@@ -1,19 +1,19 @@
-<article class="sm:pb-3 shadow-xl black mt-10 sm:mt-0 h-full flex flex-col">
-  <div class="flex-none h-64 mx-auto relative group" target="_blank">
+<article class="sm:pb-3 black mt-10 sm:mt-0 h-full flex flex-col border-gray-400">
+  <div class="flex-none h-64 mx-auto relative group mt-5" target="_blank">
     <div class="w-full h-full transition-all relative">
       <img [src]="this.project.images[0].src" [alt]="this.project.images[0].alt" class="-z-10 blur-sm h-full opacity-70" NgOptimizedImage>
       <div class="absolute top-1/2 left-1/2 w-full h-full absolute-center">
         <img [src]="this.project.images[0].src" [alt]="this.project.images[0].alt" class="object-contain origin-center lg:scale-90 h-full" NgOptimizedImage>
       </div>
     </div>
-    <a *ngIf="this.project.url" target="_blank" [href]="this.project.url" class="block w-full h-full bg-black opacity-0 hover:opacity-60 blur-3xl scale-110 transition-all absolute-center">
+    <a *ngIf="this.project.url" target="_blank" [href]="this.project.url" class="block w-full bg-black h-full opacity-0 hover:opacity-60 blur transition-all absolute-center">
     </a>
     <i *ngIf="this.project.url" class="opacity-0 group-hover:opacity-100 ph-eye absolute-center text-emerald-400 text-6xl top-1/2 left-1/2 transition-all z-50 pointer-events-none"></i>
   </div>
   <div class="w-full sm:pt-16 sm:pb-5 grow">
-    <h2 class="text-4xl font-bold text-center capitalize mt-10 md:mt-4 font-josefin text-emerald-500 stroke w-full">
+    <h2 class="text-4xl font-bold text-center mt-10 md:mt-4 font-josefin text-emerald-500 stroke w-full">
       {{ ('projects.'+this.project.name+'.title') | translate }}</h2>
-    <div class="basis-full text-center mx-10 mt-4">
+    <div class="basis-full text-center mx-5 mt-4 font-lato text-base lg:text-lg tracking-tight leading-tight">
       <p *ngFor="let paragraph of ('projects.'+this.project.name+'.description') | translate" class="mt-1">{{ paragraph }}</p>
     </div>
   </div>
