@@ -3,10 +3,7 @@
     "name": "nocodelib",
     "enabled": true,
     "images": [
-      {
-        "alt": "coming soon text",
-        "src": "assets/doorplaceholder.jpg"
-      }
+
     ],
     "interactions": [
       {
@@ -30,10 +27,7 @@
     "name": "adminpanel",
     "enabled": true,
     "images": [
-      {
-        "alt": "screenshot of admin panel",
-        "src": "assets/doorplaceholder.jpg"
-      }
+      
     ],
     "interactions": [
       {
