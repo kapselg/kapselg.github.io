@@ -15,9 +15,11 @@ specifiers:
   '@ngx-translate/core': ^14.0.0
   '@ngx-translate/http-loader': ^7.0.0
   '@schematics/angular': ^15.1.6
+  '@types/file-saver': ^2.0.5
   '@types/jasmine': ~4.0.3
   angular-cli-ghpages: 1.0.5
   autoprefixer: ^10.4.13
+  file-saver: ^2.0.5
   jasmine-core: ~4.3.0
   karma: ~6.4.1
   karma-chrome-launcher: ~3.1.1
@@ -44,6 +46,7 @@ dependencies:
   '@ngx-translate/core': 14.0.0_eb5qcbvdoa2ebl3budtalmapdu
   '@ngx-translate/http-loader': 7.0.0_melwyp5adij3354rk7k4l5xk5y
   '@schematics/angular': 15.1.6
+  file-saver: 2.0.5
   phosphor-icons: 1.4.2
   rxjs: 7.5.7
   tslib: 2.4.1
@@ -53,6 +56,7 @@ devDependencies:
   '@angular-devkit/build-angular': 16.0.0-rc.0_3o6lf4nfoer7lgldusyiwrhsxy
   '@angular/cli': 16.0.0-rc.0
   '@angular/compiler-cli': 16.0.0-rc.1_nh5zj2qdi3erlknoqepbywiete
+  '@types/file-saver': 2.0.5
   '@types/jasmine': 4.0.3
   angular-cli-ghpages: 1.0.5
   autoprefixer: 10.4.13_postcss@8.4.19
@@ -2295,6 +2299,10 @@ packages:
       '@types/serve-static': 1.15.0
     dev: true
 
+  /@types/file-saver/2.0.5:
+    resolution: {integrity: sha512-zv9kNf3keYegP5oThGLaPk8E081DFDuwfqjtiTzm6PoxChdJ1raSuADf2YGCVIyrSynLrgc8JWv296s7Q7pQSQ==}
+    dev: true
+
   /@types/http-proxy/1.17.9:
     resolution: {integrity: sha512-QsbSjA/fSk7xB+UXlCT3wHBy5ai9wOcNDWwZAtud+jXhwOM3l+EYZh8Lng4+/6n8uar0J7xILzqftJdJ/Wdfkw==}
     dependencies:
@@ -3837,6 +3845,10 @@ packages:
     dependencies:
       escape-string-regexp: 1.0.5
     dev: true
+
+  /file-saver/2.0.5:
+    resolution: {integrity: sha512-P9bmyZ3h/PRG+Nzga+rbdI4OEpNDzAVyy74uVO9ATgzLK6VtAsYybF/+TOCvrc0MO793d6+42lLyZTw7/ArVzA==}
+    dev: false
 
   /filename-reserved-regex/2.0.0:
     resolution: {integrity: sha512-lc1bnsSr4L4Bdif8Xb/qrtokGbq5zlsms/CYH8PP+WtCkGNF65DPiQY8vG3SakEdRn8Dlnm+gW/qWKKjS5sZzQ==}

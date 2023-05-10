@@ -36,5 +36,6 @@ export interface InteractionButton{
  */
 export interface Image{
   alt: string,
-  src: string
+  src: string,
+  full?: string
 }

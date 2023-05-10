@@ -5,10 +5,16 @@
     "images": [
       {
         "alt": "Screenshot of the Webflow Library project's website",
-        "src": "assets/webflowrepo-ss.png"
+        "src": "assets/webflowrepo-ss.png",
+        "full": "assets/complib-full.png"
       }
     ],
     "interactions": [
+      {
+        "name": "TypeScript",
+        "icon": "typescript.svg",
+        "url": "https://www.typescriptlang.org/"
+      },
       {
         "name": "Angular",
         "icon": "angular.svg",
@@ -37,6 +43,11 @@
     ],
     "interactions": [
       {
+        "name": "TypeScript",
+        "icon": "typescript.svg",
+        "url": "https://www.typescriptlang.org/"
+      },
+      {
         "name": "ReactJS",
         "icon": "react.svg",
         "url": "https://react.dev/"
@@ -49,6 +60,33 @@
     ]
   },
   {
+    "name": "remotion-tiktoks",
+    "enabled":true,
+      "images":[
+        {
+          "alt": "Demonstration of the Remotion's result video",
+          "src": "assets/remotion.png"
+        }
+      ],
+      "interactions": [
+        {
+          "name": "TypeScript",
+          "icon": "typescript.svg",
+          "url": "https://www.typescriptlang.org/"
+        },
+        {
+          "name": "Remotion",
+          "icon": "remotion.svg",
+          "url": "https://www.remotion.dev/"
+        },
+        {
+          "name": "ReactJS",
+          "icon": "react.svg",
+          "url": "https://react.dev/"
+        }
+      ]
+  },
+  {
     "name": "derry",
     "description": [
       "Virtual guide for the City of Derry created as part of an Erasmus project in Northern Ireland. It gained a very positive reviewer and local community acclaim."
@@ -57,7 +95,8 @@
     "images": [
       {
         "alt": "Screenshot of the Derry Guide project's website",
-        "src": "assets/derry-ss.png"
+        "src": "assets/derry-ss.png",
+        "full": "assets/derry-full.png"
       }
     ],
     "interactions": [
@@ -87,6 +126,11 @@
       }
     ],
     "interactions": [
+      {
+        "name": "TypeScript",
+        "icon": "typescript.svg",
+        "url": "https://www.typescriptlang.org/"
+      },
       {
         "name": "Angular",
         "icon": "angular.svg",

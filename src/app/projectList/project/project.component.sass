@@ -4,3 +4,7 @@ article
   text-shadow: 1px 1px rgb(29 78 216)
 .box-shadow
   box-shadow: 5px 4px gray
+.hover-button
+  @apply opacity-0 group-hover:opacity-100 text-emerald-400 text-6xl z-20 transition-all flex
+  &>i
+    @apply pointer-events-none
