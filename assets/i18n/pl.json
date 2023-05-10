@@ -48,6 +48,12 @@
             "W\u00a0ramach wspomnianego projektu serwisu komponentów no\u2011code, pracuję nad\u00a0 jego panelem administracyjnym.",
             "Panel ten będzie umożliwiał administratorom zarządzanie komponentami oraz edycję ich\u00a0metadanych. Będzie również pozwalał na\u00a0przeglądanie bieżących statystyk oraz moderację klientów i\u00a0wykupionych przez\u00a0nich subskrybcji."
           ]
+        },
+        "remotion-tiktoks":{
+          "title": "Generator TikTok'ów w\u00a0Remotion",
+          "description": [
+            "Używając Remotion - bazującym na\u00a0React'cie proceduralnym generatorze wideo - stworzyłem automatyczny generator filmików, który bazując na obrazach, dźwiękach i\u00a0filmikach podanych przez użytkownika tworzy krótkie TikTok'i z\u00a0możliwością dostosowania tekstu wyświetlanego w\u00a0materiale."
+          ]
         }
       }
     }
