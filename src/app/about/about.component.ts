@@ -1,6 +1,6 @@
 import { animate, style, transition, trigger } from '@angular/animations';
-import { AfterViewInit, Component } from '@angular/core';
 import { InteractionButton } from '../shared/types';
+import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-about',
@@ -32,7 +32,7 @@ import { InteractionButton } from '../shared/types';
     ]),
   ]
 })
-export class AboutComponent implements AfterViewInit {
+export class AboutComponent {
   visited = 1;
   constructor() {
     if (localStorage.getItem('visited')) this.visited = 5;
@@ -58,10 +58,6 @@ export class AboutComponent implements AfterViewInit {
       url: 'https://www.upwork.com/freelancers/~016bbdbafee3f36314'
     }
   ]
-
-  ngAfterViewInit(){
-
-  }
 
 
 

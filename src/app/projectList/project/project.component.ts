@@ -1,6 +1,5 @@
 import { Component, Input } from '@angular/core';
 import { ProjectInfo } from '../../shared/types';
-import { Lightbox } from 'ngx-lightbox';
 import { BehaviorSubject } from 'rxjs';
 
 @Component({
@@ -9,7 +8,6 @@ import { BehaviorSubject } from 'rxjs';
   styleUrls: ['./project.component.sass']
 })
 export class ProjectComponent {
-  constructor(private _lightbox: Lightbox){}
 
   open = new BehaviorSubject(false);
 
